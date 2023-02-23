@@ -221,7 +221,7 @@
 
 #define MEMVERSION    2               /* version of memfile */
 
-#define DEFAULTFONT   "6x10"
+#define DEFAULTFONT   "10x20"
 /*#define FONT       "/users/un/src/c/x/my6x10.onx"*/
 
 #define SETFILEDELIM   " \t\n"         /* delimiters for SETFILE */

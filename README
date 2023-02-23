@@ -1,24 +1,39 @@
 ycalc
 ========
-"ycalc is an X-window calculator, with much more functions than the standard xcalc and is heavily influenced by TI-59." - Ulf Nordquist
+"ycalc is an X-window calculator, with much more functions than the standard xcalc and is heavily influenced by TI-59." - Ulf Nordquist (author)
 
 
 About
 --------
-About 25 years ago Ulf wrote this fine xcalc replacement that has excellent
-features like an interactive binary view of your numbers.  I found this little
-calculator to be indispensable for bit hacking back in the day.
+In the year 1989, Ulf Nordquist began work on this fine xcalc replacement.
+It enjoyed several years of feature improvements, and gained support for Linux
+in 1994 to complement the original HPUX (pronounced H-pux) platform.  It is
+open-source under the GPLv2, placing it amongst the earliest pioneers in
+copyleft licenses!
 
-I believed to have been long gone but while cleaning out an old system before
-clearing it's disk I noticed I had a 32bit i386 Linux build of ycalc that still
-ran on my modern Linux system.
+I personally found this little calculator to be indispensable for bit hacking
+back in the day.  And every time I've not had it available in recent years
+I would lament its absence from our modern distributions.  Assuming the
+worst for ycalc, a finality of bitrot and 404s, I had given up, until today...
 
-Inspired by the fact that this 25 year old program still ran on a modern system
-I found the source code on waybackmachine and have placed it here.  I made just
-a couple minor tweaks to get the build working and to use a more appropriate
-font size and ycalc is back to its original glory!
+While clearing out an old computer of mine I found an i386 linux build of ycalc.
+To my complete surprise it still ran on my spiffy new x64 Linux machine.
+Feeling inspired, I found the source code on waybackmachine and have placed it
+here for the world to enjoy again.
 
-Enjoy this great little calculator by Ulf Nordquist!
+This program, that began life 34 years ago, builds and runs perfectly in 2023
+with just a couple cosmetic changes.  Think about that..  We live in an age of
+package lock files, rampant deprecations and constant compatibility regressions
+in our projects.  We live in dependency hell and an era where it's considered
+taboo to write a single line of code that might already exist in some poorly
+maintained upstream library.
+
+I hope we can all take some inspiration from this great calculator of old.
+A wonderful open-source contribution by Ulf Nordquist, that I will happily
+be reincorporating into my workflows for years to come!
+
+
+PS: Props to Linus who didn't "break user-space" after all these years!
 
 
 Building

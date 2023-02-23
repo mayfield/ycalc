@@ -1,0 +1,30 @@
+ycalc
+========
+"ycalc is an X-window calculator, with much more functions than the standard xcalc and is heavily influenced by TI-59." - Ulf Nordquist
+
+
+About
+--------
+About 25 years ago Ulf wrote this fine xcalc replacement that has excellent
+features like an interactive binary view of your numbers.  I found this little
+calculator to be indispensable for bit hacking back in the day.
+
+I believed to have been long gone but while cleaning out an old system before
+clearing it's disk I noticed I had a 32bit i386 Linux build of ycalc that still
+ran on my modern Linux system.
+
+Inspired by the fact that this 25 year old program still ran on a modern system
+I found the source code on waybackmachine and have placed it here.  I made just
+a couple minor tweaks to get the build working and to use a more appropriate
+font size and ycalc is back to its original glory!
+
+Enjoy this great little calculator by Ulf Nordquist!
+
+
+Building
+--------
+Brace yourself...
+```shell
+make
+./ycalc
+```

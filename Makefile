@@ -16,7 +16,7 @@ LIB=	 -L/usr/X11/lib/ -lm -lX11 -lc
 # debugging
 
 #CCFLAGS= -g -Aa   # hpux
-CCFLAGS= -g       # linux
+CCFLAGS= -g -Wall  # linux
 
 ycalc:	${OBJ}
 	cc  ${OBJ} $(LIB) -o ycalc

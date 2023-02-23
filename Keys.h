@@ -1,6 +1,9 @@
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 
+#ifndef _KEYS_H_INCLUDE
+#define _KEYS_H_INCLUDE
+
 /* flags for keys */
 
 #define INV1ST            0x0001    /* valid inverse for 1:st */
@@ -46,3 +49,5 @@ struct keydef *HandleKeys(XButtonEvent *, struct keyhandler *, int);
 void DrawKeys(struct keyhandler *, int);
 void DrawOneKey(struct keydef *, int);
 void InitMaps(struct keyhandler *);
+
+#endif /* _KEYS_H_INCLUDE */

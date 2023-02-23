@@ -27,6 +27,10 @@
             use variables for font dependent sizes
 */
 
+#include "Keys.h"
+
+#ifndef _CALC_H_INCLUDE
+#define _CALC_H_INCLUDE
 /* calculator window */
 /* size and pos */
 
@@ -138,3 +142,5 @@ extern struct pgmentry program[LEARNSIZE];
 /* misc */
 
 extern int inverse,second;
+
+#endif /* _CALC_H_INCLUDE */

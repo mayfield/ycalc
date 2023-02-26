@@ -1,9 +1,6 @@
 ycalc
 ========
-"ycalc is an X-window calculator, with much more functions than the
- standard xcalc and is heavily influenced by TI-59."
-
-    - Ulf Nordquist (author)
+"ycalc is an X-window calculator, with much more functions than the standard xcalc and is heavily influenced by TI-59." - Ulf Nordquist (author)
 
 
 About

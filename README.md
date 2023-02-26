@@ -24,12 +24,9 @@ To my complete surprise it still ran on my spiffy new x64 Linux machine.
 Feeling inspired, I found the source code on Wayback Machine and have placed it
 here for the world to enjoy again.
 
-This program, that began life 34 years ago, builds and runs perfectly in 2023
+This program, that began life 34 years ago, builds and runs in 2023
 with just a couple cosmetic changes.  Think about that...  We live in an age of
-package lock files, rampant deprecations and constant compatibility regressions
-in our projects.  We live in dependency hell and an era where it's considered
-taboo to write a single line of code that might already exist in some poorly
-maintained upstream library.
+package lock files, rampant upstream library deprecations and compatibility regressions of all types.   Most modern projects start to fester after just a few months if not properly maintained, yet ycalc still runs and builds decades later!
 
 I hope we can all take some inspiration from this great calculator of old.
 It is a wonderful open-source contribution to the world by Ulf Nordquist,
